@@ -1,0 +1,106 @@
+body{
+
+    height: 100%;
+
+}
+
+#nav-bar-logo{
+
+    height: 30px;
+    width: 30px;
+}
+
+#search-bar{
+
+    margin-left: 200px;
+}
+
+#user-image-div{
+
+    display: flex;
+}
+
+#user-image{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#favourites-navbar{
+
+    margin-top: 5px;
+}
+
+#left-div{
+
+    width: 60vw;
+
+    padding-left: 5vw;
+
+    @media screen and (max-width: 600px){
+
+        padding-left: 0vw;
+    
+    }
+
+}
+
+#right-div{
+
+    width: 40vw;
+}
+
+#carousel{
+
+@media screen and (max-width:1000px){
+    
+    left:15%;
+}
+
+@media screen and (max-width:600px){
+    
+    left:0%;
+}
+
+}
+
+#status-bar{
+
+    position: absolute;
+    bottom: 0;
+    background-color: brown;
+    height: 60px;
+    width: 100%;
+}
+
+footer{
+
+    position: sticky;
+    bottom: 0;
+ 
+}
+
+#status-bar-image{
+
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    
+}
+
+.song-list-item{
+
+}
+
+.song-list-item h5{
+
+
+}
+
+.song-list-item img{
+
+    height: 60px;
+    width: 60px;
+}
